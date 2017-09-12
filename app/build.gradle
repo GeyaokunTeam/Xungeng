@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        xungeng {
+            keyAlias 'hangzhoupunuokeystore'
+            keyPassword '123456'
+            storeFile file('/key/hangzhoupunuo.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.punuo.sys.app.xungeng"
+        minSdkVersion 22
+        targetSdkVersion 23
+        versionCode 1
+        versionName "2017.9.12"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.xungeng
+        }
+        debug {
+            signingConfig signingConfigs.xungeng
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile files('libs/butterknife-7.0.1.jar')
+    compile files('libs/commons-net-2.2.jar')
+    compile files('libs/Amap_2DMap_V2.9.1_20160825.jar')
+    compile files('libs/AMap_Location_V3.0.0_20160922.jar')
+    compile files('libs/AMap_Search_V3.5.0_20160927.jar')
+    compile files('libs/fastjson-1.1.50.android.jar')
+    compile project(':emoji')
+    compile 'com.google.zxing:core:3.3.0'
+    compile 'com.google.code.gson:gson:2.8.1'
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.punuo.sys.app">
+
+    <!-- 访问网络连接权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 使用SIP连接权限 -->
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序在手机屏幕关闭之后后台程序仍然进行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 访问麦克风录制声音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 访问内存卡 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 写内存卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/liangku_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="aa61351fad218a296aec63c06d72389c" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity
+            android:name=".xungeng.ui.Login"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".xungeng.ui.Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.AppList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.MyLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.ChangPWD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.audio.PhoneCall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.ShowPhoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.video.VideoPlay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.video.H264Sending"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.MyCamera"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.VideoLook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.AlbumAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.AlbumItemAty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.FileChooserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.SendLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.SmallVideoPlay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.ShowLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.VideoShow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.MakeSmallVideo"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".xungeng.receiver.NetworkConnectChangedReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".xungeng.receiver.PTTReceiver" />
+        <receiver android:name=".xungeng.receiver.ProximityAlertReciever" />
+
+        <service android:name=".xungeng.service.PTTService" />
+        <service android:name=".xungeng.service.SipService" />
+        <service android:name=".xungeng.service.NewsService" />
+
+        <activity
+            android:name=".xungeng.movierecord.MovieRecord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xungeng.ui.CheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".zxing.android.CaptureActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

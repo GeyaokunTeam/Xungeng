@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/changesetting">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="服务器ip:"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/serverip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="请填写服务器ip"
+            android:selectAllOnFocus="true"
+            android:inputType="text"
+            android:lines="1"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="设备id:"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/devid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="请填写设备id"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            android:lines="1"
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="中心号码:"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/centerphonenum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="请填写中心号码"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            android:lines="1"
+            />
+    </TableRow>
+</TableLayout>

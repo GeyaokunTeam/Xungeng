@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:background="@android:color/transparent"
+        android:text="无网络?"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/setting" />
+    <Button
+        android:id="@+id/changedevId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="修改配置"
+        android:textColor="@color/blue"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/liangku_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/icon_title"
+            android:layout_width="120dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/liangku_icon" />
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/liangku_jiancheng" />
+        <ImageView
+            android:id="@+id/tv"
+            android:layout_width="263dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/liangku" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="360dp"
+            android:layout_height="220.5dp"
+            android:src="@drawable/liangku_image" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="36.5dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/login_edittext_bg"
+            android:hint="账号"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#626161"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="36.5dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/login_edittext_bg"
+            android:hint="密码"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#626161"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="36.5dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_button_bg"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>
