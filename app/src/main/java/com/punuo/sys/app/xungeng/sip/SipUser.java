@@ -64,6 +64,7 @@ public class SipUser extends SipProvider {
     private TotalListener totalListener;
     private BottomListener bottomListener;
     private LoginNotifyListener loginNotifyListener;
+    private CheckActivity.CheckListener mCheckListener;
     private boolean flag;
     MediaPlayer mediaPlayer;
 
@@ -758,6 +759,9 @@ public class SipUser extends SipProvider {
                         return true;
                     }
                     case "user_gps_update_response":
+                        if (mCheckListener!=null){
+                            mCheckListener.OnCheck(0);
+                        }
                         break;
                     case "update_password_response":
                         Element resultElement = (Element) root.getElementsByTagName("result").item(0);
@@ -775,6 +779,9 @@ public class SipUser extends SipProvider {
                     case "query_latest_gps_info":
                         Element turnElement = (Element) root.getElementsByTagName("turn").item(0);
                         SipInfo.turn = turnElement.getFirstChild().getNodeValue();
+                        if (mCheckListener!=null){
+                            mCheckListener.OnQueryTurn();
+                        }
                         return true;
                     default:
                         return false;
@@ -853,6 +860,10 @@ public class SipUser extends SipProvider {
         void onDevNotify();
 
         void onUserNotify();
+    }
+
+    public void setmCheckListener(CheckActivity.CheckListener mCheckListener) {
+        this.mCheckListener = mCheckListener;
     }
 
     /**

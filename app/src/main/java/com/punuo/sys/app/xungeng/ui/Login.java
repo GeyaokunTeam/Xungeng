@@ -364,7 +364,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                                     //数据库名
                                     String dbPath = SipInfo.userId + ".db";
 //                                    deleteDatabase(dbPath);
-                                    MyDatabaseHelper myDatabaseHelper = new MyDatabaseHelper(Login.this, dbPath, null, 4);
+                                    MyDatabaseHelper myDatabaseHelper = new MyDatabaseHelper(Login.this, dbPath, null, 7);
                                     DatabaseInfo.sqLiteManager = new SQLiteManager(myDatabaseHelper);
                                     //请求app列表时先清除applist
                                     SipInfo.appList.clear();

@@ -91,5 +91,5 @@ public class SipInfo {
     public static SipService sipService;
     public static int[] points;
     public static int lastPoint=-1;
-    public static String turn;
+    public static String turn="1";
 }

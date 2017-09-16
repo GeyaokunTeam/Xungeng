@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <include layout="@layout/fragment_title1" />
+    <include
+        android:id="@+id/titlelayout"
+        layout="@layout/fragment_title1" />
+
+    <Button
+        android:id="@+id/xungeng"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_start_xungeng_bg"
+        android:text="开始巡更"
+        android:textSize="18sp" />
 
     <ListView
         android:id="@+id/point_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@id/xungeng"
+        android:layout_below="@id/titlelayout"
         android:cacheColorHint="@android:color/transparent"
         android:divider="#000000"
         android:dividerHeight="1dp" />
-</LinearLayout>
+</RelativeLayout>

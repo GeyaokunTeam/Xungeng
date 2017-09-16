@@ -16,16 +16,16 @@
         "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_zhuakuang.png"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_ganmao.png",
-        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_ganmao.png"
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_shuijiao.png",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_shuijiao.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_bishi.png",
         "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_bishi.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_shuijiao.png",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_shuijiao.png"
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_ganmao.png",
+        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_ganmao.png"
     },
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_touxiao.png"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\l_xin.png",
-        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\l_xin.png"
-    },
-    {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_keai.png",
         "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_keai.png"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\l_xin.png",
+        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\l_xin.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -184,12 +184,12 @@
         "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\o_zhong.png"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\h_ye.png",
-        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\h_ye.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\o_ganbei.png",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\o_ganbei.png"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\h_ye.png",
+        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\h_ye.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\f_zhi.png",
@@ -232,20 +232,20 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_shenshou.png"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_heixian.png",
-        "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_heixian.png"
-    },
-    {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_nvhaier.png",
         "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_nvhaier.png"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\o_ganbei.png",
-        "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\o_ganbei.png"
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_heixian.png",
+        "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_heixian.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\o_ganbei.png",
+        "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\o_ganbei.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\h_ye.png",
@@ -392,12 +392,12 @@
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_han.png",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_han.png"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
@@ -428,12 +428,12 @@
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_baibai.png",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_baibai.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_dalian.png",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_dalian.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_baibai.png",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_baibai.png"
     },
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_shayan.png",
@@ -448,12 +448,12 @@
         "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_xiaoku.png"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_shiwang.png",
-        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_shiwang.png"
-    },
-    {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_haixiu.png",
         "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_haixiu.png"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_shiwang.png",
+        "source": "E:\\project\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_shiwang.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
@@ -472,12 +472,12 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_zhajipijiu.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_bizui.png",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_bizui.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\o_weiguan.png",
@@ -512,16 +512,16 @@
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\h_zan.png",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\h_zan.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\h_zan.png",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\h_zan.png"
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_youhengheng.png",
@@ -592,12 +592,12 @@
         "source": "F:\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_zuohengheng.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_kelian.png",
-        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_kelian.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\d_kelian.png",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\src\\main\\res\\drawable-xhdpi\\d_kelian.png"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",

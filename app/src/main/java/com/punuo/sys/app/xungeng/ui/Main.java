@@ -418,4 +418,5 @@ public class Main extends MyActivity implements View.OnClickListener,SipUser.Bot
         audioFragment.userNotify();
         contactFragment.notifyFriendListChanged();
     }
+
 }

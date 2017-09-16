@@ -36,12 +36,12 @@
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",

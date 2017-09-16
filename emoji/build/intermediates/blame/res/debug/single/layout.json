@@ -8,12 +8,12 @@
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\layout\\layout_face_grid.xml",
