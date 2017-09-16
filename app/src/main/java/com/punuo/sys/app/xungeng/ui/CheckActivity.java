@@ -29,7 +29,12 @@ import com.punuo.sys.app.zxing.android.CaptureActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import static com.punuo.sys.app.xungeng.sip.SipInfo.devId;
 import static com.punuo.sys.app.xungeng.sip.SipInfo.pointInfoList;
+import static com.punuo.sys.app.xungeng.sip.SipInfo.pointInfoListbd09;
 import static com.punuo.sys.app.xungeng.sip.SipInfo.userId;
 
 /**
@@ -127,8 +132,13 @@ public class CheckActivity extends Activity {
                     double lat = jo.optDouble("lat");
                     double lon = jo.optDouble("lon");
                     if (currentId == id) {
-                        SipInfo.sipUser.sendMessage(SipMessageFactory.createNotifyRequest(SipInfo.sipUser, SipInfo.user_to, SipInfo.user_from,
-                                BodyFactory.creatGPSInfoBody(userId, areaCode, lon, lat, System.currentTimeMillis() / 1000, id, 0)));
+//                        SipInfo.sipUser.sendMessage(SipMessageFactory.createNotifyRequest(SipInfo.sipUser, SipInfo.user_to, SipInfo.user_from,
+//                                BodyFactory.creatGPSInfoBody(userId, areaCode, lon, lat, System.currentTimeMillis() / 1000, id, 0)));
+                        SimpleDateFormat formatter=new SimpleDateFormat("yyyyMMdd");
+                        Date curDate=  new Date(System.currentTimeMillis());
+                        String date=formatter.format(curDate);
+                        SipInfo.sipUser.sendMessage(SipMessageFactory.createNotifyRequest(SipInfo.sipUser,SipInfo.user_to,SipInfo.user_from,
+                                BodyFactory.creatGPSInfoBody(userId, areaCode, lon, lat, System.currentTimeMillis() / 1000, id, 0,devId,Integer.parseInt(SipInfo.turn)+1,date)));
                         PointInfo pointInfo = new PointInfo();
                         pointInfo.setId(id);
                         int index = SipInfo.pointInfoList.indexOf(pointInfo);
@@ -137,6 +147,7 @@ public class CheckActivity extends Activity {
                         }
                         pointAdapter.notifyDataSetChanged();
                         Toast.makeText(this, "打卡成功", Toast.LENGTH_SHORT).show();
+
                     } else {
                         Toast.makeText(this, "请检查当前您所要打卡的巡更点是否匹配当前点", Toast.LENGTH_SHORT).show();
                     }

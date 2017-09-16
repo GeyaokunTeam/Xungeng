@@ -35,8 +35,8 @@ public class ProximityAlertReciever extends BroadcastReceiver {
                     @Override
                     public void run() {
                         for (int i=0;i<3;i++){
-                            SipInfo.sipUser.sendMessage(SipMessageFactory.createNotifyRequest(SipInfo.sipUser, SipInfo.user_to, SipInfo.user_from,
-                                    BodyFactory.creatGPSInfoBody(userId, SipInfo.addr_code, pointInfoListbd09.get(id - 1).getLang(), pointInfoListbd09.get(id - 1).getLat(), System.currentTimeMillis() / 1000, id, 0)));
+//                            SipInfo.sipUser.sendMessage(SipMessageFactory.createNotifyRequest(SipInfo.sipUser, SipInfo.user_to, SipInfo.user_from,
+//                                    BodyFactory.creatGPSInfoBody(userId, SipInfo.addr_code, pointInfoListbd09.get(id - 1).getLang(), pointInfoListbd09.get(id - 1).getLat(), System.currentTimeMillis() / 1000, id, 0)));
                             try {
                                 Thread.sleep(5000);
                             } catch (InterruptedException e) {

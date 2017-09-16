@@ -772,6 +772,10 @@ public class SipUser extends SipProvider {
                             }
                         }
                         return true;
+                    case "query_latest_gps_info":
+                        Element turnElement = (Element) root.getElementsByTagName("turn").item(0);
+                        SipInfo.turn = turnElement.getFirstChild().getNodeValue();
+                        return true;
                     default:
                         return false;
                 }

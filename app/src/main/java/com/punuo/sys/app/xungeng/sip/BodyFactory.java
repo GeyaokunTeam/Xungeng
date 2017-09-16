@@ -202,7 +202,7 @@ public class BodyFactory {
         return body.toString();
     }
 
-    public static String creatGPSInfoBody(String userId, int addr_code, double lang, double lat, long gpsutc, int pointid,int direction) {
+    public static String creatGPSInfoBody(String userId, int addr_code, double lang, double lat, long gpsutc, int pointid, int direction,String devId,int turn,String date) {
         StringBuilder body = new StringBuilder();
         body.append("<?xml version=\"1.0\"?>\r\n");
         body.append("<gps_info>\r\n<userid>");
@@ -219,7 +219,13 @@ public class BodyFactory {
         body.append(pointid);
         body.append("</pointid>\r\n<direction>");
         body.append(direction);
-        body.append("</direction>\r\n</gps_info>\r\n");
+        body.append("</direction>\r\n<devid>");
+        body.append(devId);
+        body.append("</devid>\r\n<turn>");
+        body.append(turn);
+        body.append("</turn>\r\n<date>");
+        body.append(date);
+        body.append("</date>\r\n</gps_info>\r\n");
         return body.toString();
     }
 
@@ -231,4 +237,14 @@ public class BodyFactory {
         body.append("</addr_code>\r\n</points_query>\r\n");
         return body.toString();
     }
+    //查询最大的轮次
+    public static String createQueryGPSLatestGpdInfo(String devid) {
+        StringBuilder body = new StringBuilder();
+        body.append("<?xml version=\"1.0\"?>\r\n");
+        body.append("<query_latest_gps_info>\r\n<devid>");
+        body.append(devid);
+        body.append("</devid>\r\n</query_latest_gps_info>\r\n");
+        return body.toString();
+    }
+
 }
