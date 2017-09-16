@@ -4,6 +4,14 @@
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },

@@ -1,25 +1,5 @@
 [
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
@@ -28,16 +8,12 @@
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -52,24 +28,8 @@
         "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -78,5 +38,85 @@
     {
         "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6f7f555226b32e11419f46648a8ac1e876164289\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\project\\Xungeng\\emoji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\Xungeng\\emoji\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\acer\\.android\\build-cache\\dd29c255d50b35f773e2ec49d8f416f0ee50bc09\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     }
 ]
